@@ -10,6 +10,7 @@
 		<Description>rev. 1</Description>
 		<Authors>Roman Koff</Authors>
 		<Copyright>$(Authors)</Copyright>
+		<NeutralLanguage>ru</NeutralLanguage>
 	</PropertyGroup>
 
 	<ItemGroup>
