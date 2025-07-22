@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ans.Net8.Psql", "Ans.Net8.Psql.csproj", "{7489FD05-FA94-424B-91DB-2F7D0BFDB335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ans.Net8.Common", "..\Ans.Net8.Common\Ans.Net8.Common.csproj", "{35AE7347-072A-84F6-AE5E-757F2B81AEA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7489FD05-FA94-424B-91DB-2F7D0BFDB335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7489FD05-FA94-424B-91DB-2F7D0BFDB335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7489FD05-FA94-424B-91DB-2F7D0BFDB335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7489FD05-FA94-424B-91DB-2F7D0BFDB335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AE7347-072A-84F6-AE5E-757F2B81AEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AE7347-072A-84F6-AE5E-757F2B81AEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AE7347-072A-84F6-AE5E-757F2B81AEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AE7347-072A-84F6-AE5E-757F2B81AEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E500394-32DD-48F8-8721-51130B88AF1B}
+	EndGlobalSection
+EndGlobal
