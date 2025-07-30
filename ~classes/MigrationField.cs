@@ -52,6 +52,8 @@
 				"decimal" => x => SuppSql.GetValueAsDecimalOr0(x),
 				"decimal?" => x => SuppSql.GetValueAsDecimalOrNULL(x),
 				"datetime" => x => SuppSql.GetValueAsDateTimeOrNULL(x),
+				"dateonly" => x => SuppSql.GetValueAsDateOnlyOrNULL(x),
+				"timeonly" => x => SuppSql.GetValueAsTimeOnlyOrNULL(x),
 				"bool" => x => SuppSql.GetValueAsBool(x),
 				_ => throw new ArgumentOutOfRangeException(type)
 			};
